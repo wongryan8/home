@@ -1,4 +1,64 @@
-.test1 {
-    color: red;
+.container1 {
+    background-color: #1F2937;
+    padding: 16px 80px 80px 120px;
+    /*May need margin?*/
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.header_left {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header_right, .introduction_subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.introduction {
+    display: flex;
+    /*Could be center*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introduction_opening {
+    color: #F9FAF8;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.introduction_right {
+    background-color: gray;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.container2 {
+    background-color: white;
+    padding: 16px 80px 80px 120px;
+}
+
+.container3 {
+    background-color: gray;
+    padding: 16px 80px 80px 120px;
+}
+
+.container4 {
+    background-color: white;
+    padding: 16px 80px 80px 120px;
+}
+
+.container5 {
+    background-color: #1F2937;
+    padding: 16px 16px 16px 120px;
     text-align: center;
+    color: #F9FAF8;
 }
