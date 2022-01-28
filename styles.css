@@ -1,6 +1,6 @@
 .container1 {
     background-color: #1F2937;
-    padding: 16px 80px 80px 120px;
+    padding: 16px 80px 80px 80px;
     /*May need margin?*/
 }
 
@@ -33,6 +33,11 @@
     color: #F9FAF8;
     font-size: 36px;
     font-weight: bold;
+    padding-bottom: 12px;
+}
+
+.introduction_subtext {
+    padding-bottom: 12px;
 }
 
 .introduction_right {
@@ -41,24 +46,52 @@
     font-size: 18px;
 }
 
+.contact {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px 6px 12px;
+    border-color: #3882f6;
+    border-radius: 8px;
+}
+
 .container2 {
     background-color: white;
-    padding: 16px 80px 80px 120px;
+    padding: 16px 80px 80px 80px;
+}
+
+.recipe_introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 8px 10px 8px;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
 }
 
 .container3 {
     background-color: gray;
-    padding: 16px 80px 80px 120px;
+    padding: 16px 80px 80px 80px;
 }
 
 .container4 {
     background-color: white;
-    padding: 16px 80px 80px 120px;
+    padding: 16px 80px 80px 80px;
 }
 
 .container5 {
     background-color: #1F2937;
-    padding: 16px 16px 16px 120px;
+    padding: 12px 80px 12px 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: #F9FAF8;
+    text-align: center;
+    padding: 0px 8px 0px 8px;
 }
