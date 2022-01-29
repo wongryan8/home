@@ -125,17 +125,8 @@ img {
     align-items: center;
     justify-content: space-around;
     gap: 60px;
-    padding: 24px 48px;
+    padding: 36px 48px;
     border-radius: 12px;
-}
-
-.contact4 {
-    background-color: #3882f6;
-    color: white;
-    font-weight: bold;
-    padding: 6px 12px 6px 12px;
-    border-color: white;
-    border-radius: 8px;
 }
 
 .ad_top {
@@ -145,6 +136,15 @@ img {
 
 .ad_bot {
     color: white;
+}
+
+.contact4 {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px 6px 12px;
+    border-color: white;
+    border-radius: 8px;
 }
 
 .container5 {
