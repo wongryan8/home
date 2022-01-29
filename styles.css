@@ -41,7 +41,6 @@
 }
 
 .introduction_right {
-    background-color: gray;
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -57,7 +56,7 @@
 
 .container2 {
     background-color: white;
-    padding: 16px 80px 80px 80px;
+    padding: 16px 80px 40px 80px;
 }
 
 .recipe_introduction {
@@ -65,10 +64,28 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px 8px 10px 8px;
+    padding: 10px 8px 36px 8px;
     font-weight: bold;
     color: black;
     font-size: 24px;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 52px;
+}
+
+.recipe_text {
+    padding-top: 24px;
+}
+
+img {
+    border: black;
+    border-style: solid;
+    border-radius: 12px;
 }
 
 .container3 {
