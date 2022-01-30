@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+
+body {
+    font-family: Roboto;
+}
+
 .container1 {
     background-color: #1F2937;
     padding: 16px 80px 80px 80px;
