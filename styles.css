@@ -84,7 +84,7 @@
     font-size: 24px;
 }
 
-.recipes {
+.recipes, .contact_intro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,4 +170,18 @@ img {
     color: #F9FAF8;
     text-align: center;
     padding: 0px 8px 0px 8px;
+}
+
+.contact_opening {
+    color: #F9FAF8;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 48px;
+}
+
+.contact_text {
+    padding-top: 24px;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-bottom: 12px;
 }
