@@ -19,9 +19,19 @@
 
 .header_right {
     display: flex;
+    align-items: center;
     color: #E5E7EB;
     font-size: 18px;
     gap: 36px;
+}
+
+.header_button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px 6px 12px;
+    border-color: #3882f6;
+    border-radius: 8px;
 }
 
 .introduction {
