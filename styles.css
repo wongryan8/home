@@ -215,3 +215,219 @@ a {
     text-align: center;
     padding: 0px 8px 0px 8px;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-family: Roboto;
+    }
+    
+    .container1 {
+        background-color: #1F2937;
+        padding: 6px 24px 24px 24px;
+        /*May need margin?*/
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 12px;
+    }
+    
+    .header_left {
+        color: #F9FAF8;
+        font-size: 8px;
+        font-weight: bold;
+    }
+    
+    .header_right {
+        display: flex;
+        align-items: center;
+        color: #E5E7EB;
+        font-size: 6px;
+        gap: 12px;
+    }
+    
+    .header_button {
+        background-color: #3882f6;
+        color: white;
+        font-weight: bold;
+        padding: 2px 4px 2px 4px;
+        border-color: #3882f6;
+        border-radius: 3px;
+    }
+    
+    .introduction {
+        display: flex;
+        /*Could be center*/
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .introduction_opening {
+        color: #F9FAF8;
+        font-size: 12px;
+        font-weight: bold;
+        padding-bottom: 4px;
+    }
+    
+    .introduction_subtext {
+        color: #E5E7EB;
+        font-size: 6px;
+        padding-bottom: 4px;
+    }
+    
+    .introduction_right {
+        color: #E5E7EB;
+        font-size: 6px;
+    }
+    
+    .contact {
+        background-color: #3882f6;
+        color: white;
+        font-weight: bold;
+        padding: 2px 4px 2px 4px;
+        border-color: #3882f6;
+        border-radius: 3px;
+    }
+    
+    .container2 {
+        background-color: white;
+        padding: 5px 24px 12px 24px;
+    }
+    
+    .recipe_introduction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 3px 3px 12px 3px;
+        font-weight: bold;
+        color: black;
+        font-size: 8px;
+    }
+    
+    .recipes, .contact_intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+    }
+    
+    .recipe_text {
+        padding-top: 8px;
+    }
+    
+    img {
+        border: black;
+        border-style: solid;
+        border-radius: 4px;
+        width: 75%;
+        height: 75%;
+    }
+    
+    .container3 {
+        background-color: lightgray;
+        padding: 5px 24px 12px 24px;
+    }
+    
+    .container3_body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 3px 3px 8px 3px;
+        margin: auto;
+        font-style: italic;
+        color: black;
+        font-size: 8px;
+        max-width: 160px;
+    }
+    
+    .container3_closer {
+        text-align: center;
+    }
+    
+    .container4 {
+        background-color: white;
+        padding: 10px 50px;
+    }
+    
+    .container4_body {
+        background-color: #3882f6;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+        padding: 12px 16px;
+        border-radius: 4px;
+    }
+    
+    .ad_top {
+        color:white;
+        font-weight: bold;
+    }
+    
+    .ad_bot {
+        color: white;
+    }
+    
+    .contact4 {
+        background-color: #3882f6;
+        color: white;
+        font-weight: bold;
+        padding: 2px 4px 2px 4px;
+        border-color: white;
+        border-radius: 3px;
+    }
+    
+    .container5 {
+        background-color: #1F2937;
+        padding: 4px 24px 4px 24px;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #F9FAF8;
+        text-align: center;
+        padding: 0px 3px 0px 3px;
+    }
+    
+    .contact_opening {
+        color: #F9FAF8;
+        font-size: 12px;
+        font-weight: bold;
+        padding-bottom: 16px;
+    }
+    
+    .contact_text {
+        padding-top: 8px;
+        color: #E5E7EB;
+        font-size: 6px;
+        padding-bottom: 4px;
+        text-decoration: underline;
+    }
+    
+    a { 
+        color: #E5E7EB;
+    }
+    
+    .container6 {
+        background-color: #F9FAF8;
+        padding: 4px 24px 4px 24px;
+    }
+    
+    .footer2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: black;
+        text-align: center;
+        padding: 0px 3px 0px 3px;
+    }
+  }
